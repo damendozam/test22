@@ -8,6 +8,14 @@
         "env": []
     },
     {
+        "id": "7fdf16e10ea42460",
+        "type": "tab",
+        "label": "testQ",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "27af1f6ad73813fe",
         "type": "inject",
         "z": "7dff6994282ad811",
@@ -44,6 +52,36 @@
         "mode": "link",
         "links": [],
         "x": 465,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "141f3c02f9e00a32",
+        "type": "link in",
+        "z": "7fdf16e10ea42460",
+        "name": "",
+        "links": [],
+        "x": 365,
+        "y": 180,
+        "wires": [
+            [
+                "4487477bbe345931"
+            ]
+        ]
+    },
+    {
+        "id": "4487477bbe345931",
+        "type": "debug",
+        "z": "7fdf16e10ea42460",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 510,
         "y": 180,
         "wires": []
     }
